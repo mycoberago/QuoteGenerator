@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Quote Generator</title>
+
+  <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div class='container' id='container'>
+	  <div class='container-fluid' id='container-fluid'>
+	    <p id='intro'>Below are a few quotes that I find motivating.</p>
+	    <button type='button' id='update' class='btn btn-success btn-block'>Generate a Quote</button>
+	    <div id='quote-holder' ></div>
+	    <div class='text-primary' id='author-holder'></div>
+	    <a class="twitter-share-button" id='tweet' href="https://twitter.com/intent/tweet" target="_blank">
+	    <button id='twitter' class='btn btn-primary'><i class='fa fa-twitter'> Tweet this Quote</i></button></a>
+	  </div>
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="script.js" type="text/javascript" charset="utf-8" async defer></script>
+</body>
+</html>

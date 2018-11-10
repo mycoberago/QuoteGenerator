@@ -1,0 +1,36 @@
+#intro {
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-family: Geneva;
+}
+#container{
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+#container-fluid{
+  width: 70%;
+  align-self: center;
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+  border: .5px solid grey;
+  box-shadow: 2px 2px 10px grey;
+}
+#update {
+  height: 50px;
+  font-size: 15px;
+}
+
+#quote-holder{
+  font-family: "Copperplate";
+  font-size: 35px;
+  margin: 25px 25px 0px 25px;
+  padding: 10px 10px 10px 10px;
+  border-bottom: 1px solid grey;
+}
+#author-holder {
+  margin: 5px 25px 5px 25px;
+  padding: 0px 25px 25px 25px;
+  font-size: 20px;
+}
